@@ -1,0 +1,97 @@
+@media screen and (max-width: 767px) {
+  .header .menu__list {
+    flex-direction: column;
+  }
+  .header .menu__item {
+    margin: 0;
+    width: 100%;
+  }
+  .header .menu__link {
+    display: block;
+    padding: 1.5rem;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .header__image,
+  .menu {
+    display: none;
+  }
+  .menu__bars {
+    display: block;
+  }
+  .header__top {
+    justify-content: space-between;
+  }
+  .header__content {
+    padding-top: 7rem;
+  }
+  .header__content-title {
+    font-size: 4rem;
+  }
+  .header__content-cta {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .header__content-cta > a:first-child {
+    margin-right: 0;
+    margin-bottom: 2.5rem;
+  }
+  .about__inner {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .about__content {
+    max-width: 72%;
+  }
+  .about__item {
+    width: 100%;
+  }
+  .popular_item {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .team__item {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .team__social {
+    opacity: 1;
+    visibility: visible;
+  }
+  .team__info {
+    bottom: 3rem;
+    transform: translateY(0);
+  }
+  .team__item:hover .team__info {
+    transform: none;
+  }
+  .team__item img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 1439px), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header__content {
+    padding-top: 12rem;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .about__item {
+    width: 49.6%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .booking {
+    flex-direction: column;
+  }
+  .booking > * {
+    width: 100%;
+  }
+  .booking__form {
+    padding: 2rem;
+  }
+  .btn {
+    width: 100%;
+  }
+}
